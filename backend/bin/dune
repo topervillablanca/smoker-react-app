@@ -1,0 +1,4 @@
+(executable
+ (name cigarette_smokers)
+ (libraries base-threads cohttp-lwt-unix lwt yojson))
+ (flags (:standard -thread))
